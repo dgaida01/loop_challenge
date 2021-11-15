@@ -19,10 +19,9 @@ while(i>0){
 }
 
 //loop to write a specific sequence: 
-console.log("Print the sequence of an Array");
-var list = [4,2.5,1,-.5,-2,-3.5]
-for(i=0; i<list.length; i++){
-    console.log(list[i]);
+console.log("Print decrimenting 1.5");
+for(i=4; i>-4; i-=1.5){
+    console.log(i);
 }
 
 
